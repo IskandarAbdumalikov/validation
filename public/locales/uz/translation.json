@@ -1,4 +1,26 @@
 {
-  "header" : "Bosh sahifa",
-  "choose-lang" : "Tilni tanlang"
+  "header": "Bosh sahifa",
+  "choose-lang": "Tilni tanlang",
+  "home": "Bosh sahifa",
+  "welcome-home": "Bosh sahifaga xush kelibsiz!",
+  "login": {
+    "welcome": "ByTrendga xush kelibsiz!",
+    "dont-have-account": "Akkauntingiz yo'qmi?",
+    "email": "Email",
+    "password": "Parol",
+    "continue": "Davom eting",
+    "register": "Ro'yxatdan o'ting"
+  },
+  "register": {
+    "welcome": "ByTrendga xush kelibsiz!",
+    "already-have-account": "Akkauntingiz bormi?",
+    "email": "Email",
+    "phone": "Telefon",
+    "country": "Mamlakat",
+    "city": "Shahar",
+    "password": "Parol",
+    "confirm-password": "Parolni tasdiqlang",
+    "continue": "Davom eting",
+    "login": "Kirish"
+  }
 }

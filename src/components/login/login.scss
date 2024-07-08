@@ -1,27 +1,3 @@
-.form {
-  width: 400px;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin: 50px auto;
-}
-
-.inp {
-  width: 100%;
-  height: 30px;
-  outline: none;
-  border: 1px solid #ddd;
-}
-
-.error {
-  border: 1px solid crimson;
-}
-
-.error__message {
-  color: crimson;
-  font-size: 12px;
-  height: 24px;
-}
-
 .login {
   display: flex;
   flex-direction: column;
@@ -29,4 +5,86 @@
   align-items: center;
   justify-content: center;
   margin-top: 80px !important;
+  background: white;
+  padding: 50px 20px !important;
+  max-width: 440px !important;
+  border-radius: 10px;
+  .to__login {
+    a {
+      color: #01bab3;
+    }
+  }
+  form {
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input {
+      padding: 10px 20px;
+      border-radius: 10px;
+      width: 100%;
+      height: 50px;
+      outline: none;
+      border: 1px solid #ddd;
+    }
+
+    .error {
+      border: 1px solid crimson !important;
+    }
+
+    .error__message {
+      color: crimson;
+      font-size: 12px;
+      height: 24px;
+    }
+    .password,
+    .email {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      label {
+        display: flex;
+        align-items: center;
+        span {
+          color: #01bab3;
+        }
+      }
+      &__input {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+        outline: none;
+        padding-right: 10px;
+        border: 1px solid #ddd;
+        position: relative;
+
+        .warning {
+          position: absolute;
+          right: 30px;
+          color: crimson;
+        }
+        input {
+          border: none;
+          height: 100%;
+          width: 100%;
+        }
+        svg {
+          font-size: 18px;
+        }
+      }
+    }
+
+    button {
+      padding: 15px;
+      background: #01bab3;
+      color: white;
+      border: 1px solid #01bab3;
+      border-radius: 10px;
+    }
+  }
 }

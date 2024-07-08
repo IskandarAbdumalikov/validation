@@ -1,4 +1,26 @@
 {
   "header": "Header",
-  "choose-lang": "Choose language"
+  "choose-lang": "Choose language",
+  "home": "Home",
+  "welcome-home": "Welcome to the home page!",
+  "login": {
+    "welcome": "Welcome to ByTrend!",
+    "dont-have-account": "Don't have an account?",
+    "email": "Email",
+    "password": "Password",
+    "continue": "Continue",
+    "register": "Register"
+  },
+  "register": {
+    "welcome": "Welcome to ByTrend!",
+    "already-have-account": "Already have an account?",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Country",
+    "city": "City",
+    "password": "Password",
+    "confirm-password": "Confirm Password",
+    "continue": "Continue",
+    "login": "Login"
+  }
 }
