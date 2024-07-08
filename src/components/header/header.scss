@@ -1,0 +1,23 @@
+.header {
+  position: sticky;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  border-bottom: 1px solid gray;
+  &__logo{
+    img{    
+        width: 100px;
+    }
+  }
+  &__list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+}
